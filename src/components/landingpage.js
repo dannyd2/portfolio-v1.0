@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import profilepic from '../profile.jpg';
 import Testimonials from "./testimonials.js";
+import DarkModeToggle from '../DarkMode';
 
    
 class Landing extends Component {
@@ -18,7 +19,10 @@ class Landing extends Component {
 
                     <br />
                     <br />
-
+                    <div className="darkmode-button-style">
+                        <h4>Dark Mode?</h4>
+                        <DarkModeToggle />
+                    </div>
                     <div className="banner-text">
                         <div className="social-links">
 
@@ -31,13 +35,12 @@ class Landing extends Component {
                             <a href="https://github.com/dannyd2?tab=repositories" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github" aria-hidden="true" />
                             </a>
-                        </div>
+                        </div>  
                     </div>
                     <br />
-                    <Testimonials />
+                    <Testimonials />                  
                 </Cell>
-            </Grid>
-
+            </Grid>           
         </div>
     );
 }

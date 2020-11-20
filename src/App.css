@@ -97,6 +97,7 @@
     width: 200px;
     margin: auto;
     border-radius: 10px;
+
 }
 
     .banner-text h1 {
@@ -121,7 +122,9 @@
 
 
 
-
+.darkmode-button-style {
+    padding-bottom: 1%;
+}
 
 
 
