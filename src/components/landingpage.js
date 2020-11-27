@@ -8,7 +8,7 @@ import DarkModeToggle from '../DarkMode';
 class Landing extends Component {
         render() {    
     return (
-        <div style={{ width: '100%', margin: 'auto' }}>
+        <div style={{width: '100%', margin: 'auto' }}>
             <Grid className="landing-grid">
                 <Cell col={12}>
                     <img
@@ -19,10 +19,6 @@ class Landing extends Component {
 
                     <br />
                     <br />
-                    <div className="darkmode-button-style">
-                        <h4>Dark Mode?</h4>
-                        <DarkModeToggle />
-                    </div>
                     <div className="banner-text">
                         <div className="social-links">
 
@@ -37,10 +33,13 @@ class Landing extends Component {
                             </a>
                         </div>  
                     </div>
+                    <div className="darkmode-button-style">
+                        <DarkModeToggle />
+                    </div>
                     <br />
-                    <Testimonials />                  
+                    <Testimonials />
                 </Cell>
-            </Grid>           
+            </Grid>            
         </div>
     );
 }

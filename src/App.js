@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 
 
-
 class App extends Component {
     constructor(props) {
         super(props)
@@ -25,7 +24,7 @@ class App extends Component {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Daniel Dover</Link>}>
+                    <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">Daniel Dover</Link>}>
                 <Navigation>
                   <Link to="/resume">Resume</Link>
                   <Link to="/aboutme">About Me</Link>
@@ -35,7 +34,7 @@ class App extends Component {
             </Drawer>
             <Content>
                 <div className="page-content" />
-                <Main />                       
+                        <Main />      
             </Content>
         </Layout>
       </div>

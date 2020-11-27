@@ -5,7 +5,7 @@
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     */
     text-align: center;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     width: 100%;
@@ -123,7 +123,8 @@
 
 
 .darkmode-button-style {
-    padding-bottom: 1%;
+    padding-top: 5%;
+    text-align: center;
 }
 
 
