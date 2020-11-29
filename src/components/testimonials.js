@@ -44,22 +44,22 @@ const items = [
           </a>
         </div>
         <CardBody>
-          <h5 className="card-description">
+          <p className="card-description">
                       {`"Daniel is the go-to guy when it comes to development and design for your website. 
                          His creativity building my websites has brought my movie projects to life, with visuals a
                          screenwriter or producer needs. You can leave him to come up with everything as I usually do,
                          yet he’s easy to work with when I turn into a micromanager. He’s not only adept at the technical
                          gobbledygook, but also at understanding your brand and users. His work around the clock exceeded my expectations.
                          More important to me, Daniel treats you like a friend"`}
-          </h5>
+          </p>
           <CardTitle tag="h4">Tommy Musni</CardTitle>
                   <h6 className="category text-muted">Writer & Producer</h6>
           <CardFooter>
-            <i className="fa fa-star text-warning" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
+                <i className="fa fa-star text-success" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
           </CardFooter>
         </CardBody>
       </Card>
@@ -83,21 +83,21 @@ const items = [
           </a>
         </div>
         <CardBody>
-          <h5 className="card-description">
+          <p className="card-description">
                       {`"Daniel Dover has been a god-send to our start-up production company. 
                          He has created websites for our company and for several of our projects.
                          Working with Daniel is easy and pleasant. He listens to what we need in the website
                          and delivers that with his own creative twist to it, giving us a product that is everything
                          we need and more. I wholeheartedly recommend Daniel to anyone and everyone."`}
-          </h5>
+          </p>
           <CardTitle tag="h4">Colleen Keane</CardTitle>
           <h6 className="category text-muted">Producer</h6>
           <CardFooter>
-            <i className="fa fa-star text-warning" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
-            <i className="fa fa-star text-warning ml-1" />
+            <i className="fa fa-star text-success" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
+                <i className="fa fa-star text-success ml-1" />
           </CardFooter>
         </CardBody>
       </Card>

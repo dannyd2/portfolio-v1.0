@@ -11182,7 +11182,7 @@ p {
 .description,
 .card-description,
 .card .footer .stats {
-  color: #9A9A9A;
+  
   font-weight: 300; }
 
 .category,
@@ -15950,7 +15950,7 @@ html {
   [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-description,
   [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category,
   [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .category {
-    color: #9A9A9A; }
+    }
   [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title,
   [data-background-color]:not([data-background-color="gray"]) .card:not(.card-plain) .card-title {
     color: initial; }
@@ -18316,7 +18316,7 @@ select.selectpicker {
       margin-top: 15px;
       line-height: 1.25em; }
     .card .card-body .card-description, .card .card-body .card-category {
-      color: rgba(255, 255, 255, 0.6); }
+       }
   .card .category .tim-icons,
   .card .category-social .tim-icons {
     margin-right: 3px; }
@@ -18796,7 +18796,7 @@ select.selectpicker {
   .card-background .category,
   .card-background .card-description,
   .card-background small {
-    color: rgba(255, 255, 255, 0.8); }
+    }
   .card-background .card-title {
     color: #ffffff;
     margin-top: 130px; }
